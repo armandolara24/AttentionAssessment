@@ -16,17 +16,18 @@ LOGFILENAME = input("Participant name: ")
 LOGFILE = os.path.join(DATADIR, LOGFILENAME)
 
 # DISPLAY
+SCREENNR = 1  # 1 for external monitor
 # for the DISPTYPE, you can choose between 'pygame' and 'psychopy'; go for
 # 'psychopy' if you need millisecond accurate display refresh timing, and go
 # for 'pygame' if you experience trouble using PsychoPy
 DISPTYPE = 'psychopy'
 # the DISPSIZE is the monitor resolution, e.g. (1024,768)
-DISPSIZE = (1280, 720)
+DISPSIZE = (1920, 1080)
 # the SCREENSIZE is the physical screen size in centimeters, e.g. (39.9,29.9)
-SCREENSIZE = (34.5, 19.5)
+SCREENSIZE = (47.6, 26.77)
 # the SCREENDIST is the distance in centimeters between the participant and the
 # display
-SCREENDIST = 60.0
+SCREENDIST = 80.0
 # set FULLSCREEN to True for fullscreen displaying, or to False for a windowed
 # display
 FULLSCREEN = True
